@@ -34,16 +34,16 @@ export const Search = () => {
                 <p className="book-author">{author}</p>
                 <select
                   className="selet-tag"
+                  defaultValue={category}
                   onChange={(e) => changeCategory(e, id)}
                 >
-                  <option value={category}>{category}</option>
-                  {categoryOptions
-                    .filter((option) => option.value !== category)
-                    .map((option, index) => (
-                      <option key={index} value={option.value}>
-                        {option.label}
-                      </option>
-                    ))}
+                  {/* <option value={category}>{category}</option> */}
+                  {/* .filter((option) => option.value !== category) */}
+                  {categoryOptions.map((option, index) => (
+                    <option key={index} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
                 </select>
               </div>
             );
