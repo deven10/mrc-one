@@ -94,7 +94,9 @@ export const BookShelf = () => {
         <hr />
         <div className="books-wrapper">
           {allBooks.filter((book) => book.category === "Read").length <= 0 ? (
-            <p className="no-data">Please add something in Read, ¯\_(ツ)_/¯</p>
+            <p className="no-data">
+              Please add something that you've already Read, ¯\_(ツ)_/¯
+            </p>
           ) : (
             allBooks
               .filter((book) => book.category === "Read")
