@@ -1,0 +1,23 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navlinks {
+  display: flex;
+  gap: 15px;
+  margin: 15px auto;
+}
+
+.nav-item{
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.selet-tag{
+  width: 100%;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+}

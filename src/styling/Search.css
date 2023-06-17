@@ -1,0 +1,27 @@
+.main-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.search-box{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.all-books-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+
+.no-data{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
